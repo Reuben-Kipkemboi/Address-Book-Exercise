@@ -3,8 +3,8 @@
 # Authors 
 
 
-## Victoria Kwamboka 
-## Reuben Kipkemboi
+#### Victoria Kwamboka 
+#### Reuben Kipkemboi
 
 # Description
 Basic Address Book using Javascript constructors and prototypes
