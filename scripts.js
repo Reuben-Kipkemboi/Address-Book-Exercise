@@ -48,8 +48,8 @@ $(document).ready(function () {
             $(".first-name").text(newContact.firstName);
             $(".last-name").text(newContact.lastName);
             $("ul#address").text("");
-            newContact.addresses.forEach(function(address) {
-              $("ul#address").append("<li>" + address.fullAddress() + "</li>");
+            newContact.address.forEach(function(address) {
+              $("ul#addresses").append("<li>" + address.fullAddress() + "</li>");
             });
           });
 
